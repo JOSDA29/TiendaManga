@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/categoria.css">
+    <script src="../js/carrito.js"></script>
     <title>Categorias</title>
 </head>
 <body>
     <header>
         <figure id="contflecha">
-            <a href="#"> <img id="flecha" src="../img/Flecha.png" alt=""></a>
+            <a href="../html/index.html"> <img id="flecha" src="../img/Flecha.png" alt=""></a>
         </figure>
         <article id="conttitulo">
-            <h1>CATEGORIA</h1>
+            <h1>CATEGORIAS</h1>
+        </article>
+        <article id="contcarrito">
+            <figure id="carri">
+                <img id="carrito" src="../img/cart.png" alt="">
+            </figure>
+            <span id="contador">0</span>
         </article>
     </header>
     <div class="categoria">
@@ -24,21 +31,24 @@
             <h2 class="manga">One piece</h2>
             <img src="../img/One piece.jpg" alt="" class="cartaImage">
             <span>$50.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
 
         <article class="carta">
             <h2 class="manga">Jujutsu Kaisen</h2>
             <img src="../img/Jujutsu kaisen.jpg" alt="" class="cartaImage">
             <span>$40.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
 
         <article class="carta">
             <h2 class="manga">Shingeki no kyojin</h2>
             <img src="../img/Shingeki no kyojin.jpg" alt="" class="cartaImage">
             <span>$50.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>    
         
         
@@ -53,19 +63,22 @@
             <h2 class="manga">Given</h2>
             <img src="../img/Given.jpg" alt="" class="cartaImage">
             <span>$50.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
         <article class="carta">
             <h2 class="manga">Go for it nakamura!</h2>
             <img src="../img/Go for it nakamura!.jpg" alt="" class="cartaImage">
             <span>$40.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
         <article class="carta">
             <h2 class="manga">Ao haru ride</h2>
             <img src="../img/Ao haru ride.jpg" alt="" class="cartaImage">
             <span>$50.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
     </section>
 
@@ -78,19 +91,22 @@
             <h2 class="manga">Bersek</h2>
             <img src="../img/Berserk.jpg" alt="" class="cartaImage">
             <span>$50.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
         <article class="carta">
             <h2 class="manga">Monster</h2>
             <img src="../img/Monster.jpg" alt="" class="cartaImage">
             <span>$40.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
         <article class="carta">
             <h2 class="manga">Viland Saga</h2>
             <img src="../img/Vinland saga.jpg" alt="" class="cartaImage">
             <span>$50.000</span>
-            <button>COMPRAR</button>
+            <button class="comprar"><a class="comprarColor" onclick="incrementarContador()" href="#">COMPRAR</a></button>
+            <button class="comprar"><a class="comprarColor" onclick="disminuirContador()" href="#">ELIMINAR</a></button>
         </article>
     </section>
 </body>

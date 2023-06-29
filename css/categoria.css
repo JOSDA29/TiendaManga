@@ -15,6 +15,12 @@ header{
     grid-template-columns: repeat(3, 1fr);
 }
 
+#flecha {
+    width: 60px;
+    height: auto;
+    margin: 10px 0; 
+}
+
 #contflecha{
     width: 20%;
     height: auto;
@@ -25,10 +31,27 @@ header{
     width: 100%;
 }
 
-#flecha {
+#carri{
+    text-align: right;
+}
+
+#contcarrito{   
+    display: grid;
+    grid-template-columns: repeat(2,1ft);
+}
+
+#contador {
+    grid-column: 2;
+    padding: 30px 0;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#carrito{
     width: 60px;
     height: auto;
-    margin: 10px 0; 
+    margin: 10px 0;
+    
 }
 
 h1{
@@ -71,7 +94,7 @@ span {
     font-weight: 900;
 }
 
-button {
+.comprar {
     margin: 10px 20% 15px ;
     color: rgb(225,225,225);
     background-color: rgb(0,0,0);
@@ -80,6 +103,15 @@ button {
     padding: 15px 50px;
     font-size: 15px;
     font-weight: bolder;
+}
+
+.comprarColor {
+    text-decoration: none;
+    color: rgb(225,225,225);
+}
+
+.comprar:hover{
+    color: rgb(222, 184, 135);
 }
 
 footer {
